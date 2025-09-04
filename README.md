@@ -41,7 +41,8 @@ JavaScript (ES6) – Functionality & interactivity
 
 
 # 🖼 Project Preview
-                    <img width="1344" height="590" alt="Screenshot 2025-09-04 170033" src="https://github.com/user-attachments/assets/e35710f9-d4ec-46bb-a754-3e10f3951f19" />
+                    <img width="1348" height="607" alt="image" src="https://github.com/user-attachments/assets/37be28b3-a22a-487d-a518-5ca878ce1f9f" />
+
 
 
                        
