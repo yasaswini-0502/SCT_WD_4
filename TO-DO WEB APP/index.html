@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ✅ Status messages -->
+  <div id="addMessage">Task Added ✅</div>
+  <div id="updateMessage">Updating...</div>
+  <div id="deleteMessage">Task Deleted ❌</div>
+
+  <div class="container">
+    <h2>To-Do List 📝</h2>
+  <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Add your task...">
+      <input type="datetime-local" id="taskDateTime">
+
+      <select id="taskPriority">
+        <option value="Low">🟢 Low</option>
+        <option value="Medium">🟡 Medium</option>
+        <option value="High">🔴 High</option>
+      </select>
+
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- ✅ Edit Task Modal -->
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <h3>Edit Task ✏️</h3>
+      <input type="text" id="editInput">
+      <br>
+      <button class="save-btn" onclick="saveEdit()">Save</button>
+      <button class="cancel-btn" onclick="closeModal()">Cancel</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2, #ff6a00);
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 420px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+  font-size: 36px; /* Increased size */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="datetime-local"], select {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+button {
+  padding: 10px;
+  background: #ff6a00;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff8533;
+}
+
+ul {
+  list-style: none;
+  margin-top: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+ul li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: 0.3s;
+}
+
+ul li.completed {
+  text-decoration: line-through;
+  color: gray;
+  background: #dcdcdc;
+}
+
+.task-info {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.task-info small {
+  display: block;
+  font-size: 12px;
+  color: #666;
+}
+
+.priority {
+  font-weight: bold;
+}
+
+.priority.high {
+  color: red;
+}
+.priority.medium {
+  color: orange;
+}
+.priority.low {
+  color: green;
+}
+
+.actions button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background: #28a745;
+  color: #fff;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: #fff;
+}
+
+.edit-btn {
+  background: #007bff;
+  color: #fff;
+}
+
+/* ✅ Common styles for status messages */
+#addMessage, #updateMessage, #deleteMessage {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  display: none;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Different colors */
+#addMessage {
+  background: #007bff; /* blue */
+}
+#updateMessage {
+  background: #28a745; /* green */
+}
+#deleteMessage {
+  background: #dc3545; /* red */
+}
+
+/* ===== Modal Styles for Edit Task ===== */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-content input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.modal-content button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+}
+.cancel-btn {
+  background: #dc3545;
+  color: white;
+}
