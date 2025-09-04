@@ -29,15 +29,27 @@ CSS3 – Styling & responsive design
 
 JavaScript (ES6) – Functionality & interactivity
 
-# 🚀 How to Use
+# 🚀 Getting Started
 
-1. Clone this repo:
+Follow these steps to use the To-Do Web App on your local machine:
 
-   git clone https://github.com/yasaswini-0502/TO-DO-WEB-APP.git
+1. Clone the repository
 
-2. Open index.html in your browser.
+git clone https://github.com/yasaswini-0502/TO-DO-WEB-APP.git
 
-3. Start adding, editing, and organizing your tasks easily.
+2. Navigate into the project folder
+
+cd TO-DO-WEB-APP
+
+3. Open the app
+
+Simply double-click on index.html OR
+
+Right-click index.html → Open with browser (Chrome, Edge, Firefox, etc.)
+
+
+That’s it 🎉 You can now start adding, editing, completing, and deleting tasks in the To-Do Web App.
+
 
 # 🎥 Video Preview
 
