@@ -33,7 +33,7 @@ JavaScript (ES6) – Functionality & interactivity
 
 1. Clone this repo:
 
-git clone https://github.com/yasaswini-0502/TO-DO-WEB-APP.git
+   git clone https://github.com/yasaswini-0502/TO-DO-WEB-APP.git
 
 2. Open index.html in your browser.
 
@@ -41,7 +41,8 @@ git clone https://github.com/yasaswini-0502/TO-DO-WEB-APP.git
 
 
 # 🖼 Project Preview
-                    <img width="1344" height="590" alt="Screenshot 2025-09-04 170033" src="https://github.com/user-attachments/assets/b3f9ceee-4509-4139-adae-959813f04be7" />
+                    <img width="1344" height="590" alt="Screenshot 2025-09-04 170033" src="https://github.com/user-attachments/assets/e35710f9-d4ec-46bb-a754-3e10f3951f19" />
+
 
                        
 
