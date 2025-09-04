@@ -39,13 +39,9 @@ JavaScript (ES6) – Functionality & interactivity
 
 3. Start adding, editing, and organizing your tasks easily.
 
+# 🎥 Video Preview
 
-# 🖼 Project Preview
-                    <img width="1348" height="607" alt="image" src="https://github.com/user-attachments/assets/37be28b3-a22a-487d-a518-5ca878ce1f9f" />
-
-
-
-                       
+  https://drive.google.com/file/d/1ZDhy5paLK03rI0ba-mmvfDhC9aN6upAU/view?usp=drivesdk
 
 # 📂 File Structure
 
